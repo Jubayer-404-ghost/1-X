@@ -11,7 +11,7 @@ if (!fs.existsSync(tempDir)) {
 
 module.exports = {
     config: {
-        name: "cosplay2",
+        name: "csplay",
         version: "1.3",
         author: "Shikaki",
         countDown: 5,
