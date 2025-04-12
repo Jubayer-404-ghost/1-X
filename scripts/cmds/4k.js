@@ -2,7 +2,7 @@ const axios = require("axios");
 
 module.exports = {
   config: {
-    name: "4k",
+    name: "HD",
     aliases: ["upscale"],
     version: "1.1",
     role: 0,
@@ -28,7 +28,7 @@ module.exports = {
         const attachment = await global.utils.getStreamFromURL(image, "upscaled-image.png");
 
         message.reply({
-          body: "✅| Here is your 4K upscaled image:",
+          body: "✅| Here is your HD upscaled image:",
           attachment: attachment
         });
         let processingMsgID = info.messageID;
