@@ -1,7 +1,7 @@
 const { config } = global.GoatBot;
 module.exports = {
 	config: {
-		name: "wll",
+		name: "ntkwl",
 		version: "1.0",
 		author: "𝖠𝗋𝖸𝖺𝗇 🐔",
 		countDown: 5,
