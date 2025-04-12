@@ -1,8 +1,8 @@
 const axios = require('axios');
 module.exports = {
   config: {
-    name: "gname",
-    aliases: ["gname"],
+    name: "gendername",
+    aliases: ["gendername"],
     version: "1.0",
     author: "kshitiz",
     countDown: 5,
