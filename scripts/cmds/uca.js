@@ -16,7 +16,7 @@ const busImageUrl = 'https://i.ibb.co/FBm6p7p/Double-Decker-Bus-London-Icon-Hop-
 module.exports = {
   config: {
     name: "uncrossable",
-    aliases:["uca"],
+    aliases:["uncrossable"],
     version: "1.0",
     author: "Vex_Kshitiz",
     role: 0,
