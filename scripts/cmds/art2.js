@@ -2,7 +2,7 @@ const axios = require('axios');
 
 module.exports = {
   config: {
-    name: "art2",
+    name: "artgen",
     version: "1.0",
     author: "Tashrif",
     countDown: 10,
