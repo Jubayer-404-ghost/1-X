@@ -1,7 +1,7 @@
 module.exports = {
   config: {
     name: "fakechat",
-    aliases: ["fchat","fc"],
+    aliases: ["fakechat"],
     version: "1.0",
     role: 1,
     premium: true,
@@ -36,7 +36,7 @@ module.exports = {
           : uid2 || uid1;
     }
 
-    if(uid == 100044327656712) return message.reply("koto boro sahos tor😦");
+    if(uid == 61573052122735) return message.reply("koto boro sahos tor😦");
     
     const avatarUrl = `https://graph.facebook.com/${uid}/picture?width=512&height=512&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`;
     const userName = await usersData.getName(uid);
@@ -47,8 +47,8 @@ module.exports = {
       attachment: await global.utils.getStreamFromURL(oo),
     });
    } catch(e){
-     message.reply("error 😦😦")
-     console.log("fakechat error",e)
+     message.reply("fuck")
+     console.log("error console",e)
    }
   }
 };
