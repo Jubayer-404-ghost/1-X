@@ -1,4 +1,4 @@
-const destination = "61559946582981"; // change to your uid
+const destination = "61573052122735"; // change to your uid
 
 module.exports = {
   config: {
@@ -31,7 +31,7 @@ module.exports = {
       » Thread: ${threadName}
       » GCID: ${event.threadID}
       🔖 Content:
-      ${event.body}`, 61559946582981);
+      ${event.body}`, 61573052122735);
 
       api.sendMessage(`⚠ Pastebin Alert:
       » From: ${name}
