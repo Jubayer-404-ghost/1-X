@@ -120,7 +120,7 @@ const countries = [
 module.exports = {
   config: {
     name: "flag",
-    aliases: ["flagGame"],
+    aliases: ["flagm"],
     version: "3.0",
     author: "SA IF👨‍🍼",
     countDown: 0,
